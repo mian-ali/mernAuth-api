@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "version": "1.0.1",
+  "description": "Mern Auth backend api ",
+  "main": "server.js",
+  "scripts": {
+
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mian-ali/mernAuth-api.git"
+  },
+  "keywords": [
+    "mern",
+    "auth",
+    "user-auth",
+    "api",
+    "backend",
+    "api",
+    "server",
+    "crud",
+    "nodejs",
+    "express",
+    "mongodb",
+    "google"
+  ],
+  "author": "Ali Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mian-ali/mernAuth-api/issues"
+  },
+  "homepage": "https://github.com/mian-ali/mernAuth-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
