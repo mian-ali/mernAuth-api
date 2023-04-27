@@ -4,7 +4,6 @@
   "description": "Mern Auth backend api ",
   "main": "server.js",
   "scripts": {
-
     "start": "node server.js",
     "server": "nodemon server.js"
   },
@@ -33,7 +32,17 @@
   },
   "homepage": "https://github.com/mian-ali/mernAuth-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@sendgrid/mail": "^7.7.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-validator": "^7.0.1",
+    "google-auth-library": "^8.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
