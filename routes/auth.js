@@ -1,9 +1,8 @@
 const express = require('express');
-
+//import controller
+const { signup } = require('../controllers/auth');
 const router = express.Router();
 
-router.get('/signup', (req, res) => {
-  res.json({ message: 'You hit singup endpoint!' });
-});
+router.get('/signup', signup);
 
 module.exports = router;
