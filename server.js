@@ -4,14 +4,17 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
-// import routes
-const authRoutes = require('./routes/auth');
+const authRoutes = require('./routes/auth'); // import auth routes
+const { connectDB } = require('./config/DATABASE'); // import database connection
 const app = express();
 
 // application based middleware
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 dotenv.config();
+
+//connect to DATABASE Function Call
+connectDB();
 
 app.use(cors()); // allows all origins
 
