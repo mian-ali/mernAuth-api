@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const crypto = requuire('crypto');
+const crypto = require('crypto');
 // user schema
 const userScheama = new mongoose.Schema(
   {
@@ -25,10 +25,12 @@ const userScheama = new mongoose.Schema(
       type: String,
       default: 'subscriber',
     },
-    resetPasswordLink: {
-      data: String,
-      default: '',
-    },
+resetPasswordLink: {
+  data: {
+    type: String,
+    default: '',
+  },
+}
   },
   { timestamps: true }
 );
