@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/mian-ali/mernAuth-api#readme",
   "dependencies": {
-    "@sendgrid/mail": "^7.7.0",
+    "@sendgrid/mail": "^6.4.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
